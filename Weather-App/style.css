@@ -1,0 +1,111 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #4b1a1a22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-container{
+    width: 423px;
+    height:fit-content;
+    background-color: rgb(99, 58, 58);
+    border-radius: 13px;
+    box-shadow: 5px 3px 5px 4px rgb(60, 61, 58)
+
+}
+
+.search-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+
+}
+.search-box .inp{
+    width: 65%;
+    height: 42px;
+    border-radius: 9px 0px 9px 0px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding-left: 13px;
+    text-transform: capitalize;
+}
+.search-box img{
+    width: 32px;
+   
+    margin-left: 1px;
+}
+
+.search-box button{
+    border-radius: 9px 0px;
+    margin-left: 2px;
+    outline: none;
+    border: none;
+}
+.img-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-container img{
+    width: 260px;
+
+}
+.img-container .temp{
+    font-size: 40px;
+    font-weight: 549;
+}
+.details{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    margin-bottom: 20px;
+
+}
+.deg{
+    display: flex;
+    //flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.deg span{
+    font-size: 25px;
+    font-weight: 500;
+}
+.bal p{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+.bal span{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom:6px;
+}
+.details .wind{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.details .wind span{
+    font-size: 25px;
+    font-weight: 549;
+}
+
+
